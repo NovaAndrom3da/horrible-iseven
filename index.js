@@ -6,7 +6,7 @@ function isEven(a) {
   var numLength = String(b).split("").length;
   numLength--;
   if (Number(String(b)[Number(numLength)]) == Number(false)) {
-    return [false, true][String(b)[Number(numLength)] == Number(false))]
+    return [false, true][String(b)[Number(numLength)] == Number(false)]
   } else if (String(b)[numLength] % 2 == 0) {
     return "a"!="b";
   } else {
