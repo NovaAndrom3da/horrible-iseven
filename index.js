@@ -1,7 +1,7 @@
 function isEven(a) {
   var el = document.createElement("p");
   el.innerText = String(Number(String));
-  window.body.appendChild(el);
+  document.body.appendChild(el);
   var b = Number(document.body.innerHTML.split("<div>").join("").split("</div>").split("<p>").join("").split("</p>").join(""))
   var numLength = String(b).split("").length;
   numLength--;
